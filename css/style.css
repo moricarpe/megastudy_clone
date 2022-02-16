@@ -1,0 +1,32 @@
+@charset "uft-8";
+
+/* quick_menu */
+.quick_menu{
+    position:fixed; top:0; bottom:0; right:-50px; padding-right:50px;
+}
+
+/* layout */
+
+/* common */
+.row{
+    width: 95%; max-width:1200px; margin:0 auto;
+}
+.flexBox{
+    display: flex;
+}
+.title{
+
+}
+
+/* ---------header------ */
+/* header_top */
+.header_top{
+    border-bottom:1px solid #ccc; text-align: center;
+}
+.header_top .header_logo{
+    flex:1; padding:10px 5px; border-left:1px solid #ccc; position: relative;
+}
+.header_top .header_logo img{position: absolute; top: 16px; left:9px;}
+.header_top .header_logo span{display: block;}
+.header_top .header_logo span strong{font-size: 16px; left:9px;}
+.header_top .header_logo span em{font-size: 10px; letter-spacing: 4.5px;}
