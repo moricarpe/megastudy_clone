@@ -1,0 +1,25 @@
+@charset 'uft-8';
+
+html{font-size: 14px;}
+
+/* margin */
+body,div,ul,li,dl,dd,dt,ol,h1,h2,h3,h4,h5,h6,input,fieldset,legend,p,select,
+table,th,td,tr,textarea,button,form,figure,figcaption{margin:0; padding:0;}
+
+/* a tag */
+a{text-decoration: none; color: #222;}
+a:hover{color: chocolate;}
+
+/* bullet */
+ul, li, ol{list-style: none;}
+
+/* font */
+em, address{font-style: normal;}
+body, input, textarea, select, button, table{font-size: 14px;}
+
+/* button */
+button{border: 0;}
+
+/* outline */
+img, fieldset, iframe{border:0;}
+img{vertical-align: top;}
